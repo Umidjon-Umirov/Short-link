@@ -1,0 +1,39 @@
+.Form {
+    background: #4b406b;
+    padding: 15px 30px;
+    min-height: 80px;
+    border-radius: 6px;
+    position: absolute;
+    width: 80%;
+    left: 8%;
+    @media (max-width: 767px) {
+        & {
+            width: 84%;
+            left: 0px;
+            padding: 10px;
+        }
+    }
+    .formItems {
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+        padding-top: 15px;
+    }
+    .input {
+        height: 40px;
+        flex-grow: 1;
+        border: none;
+        border-radius: 10px;
+        padding: 4px 8px;
+        font-size: 0.8rem;
+    }
+
+    .submit {
+        height: 40px;
+        background: hsl(180, 66%, 49%);
+        color: #fff;
+        padding: 1px 13px;
+        border: none;
+        border-radius: 6px;
+    }
+}

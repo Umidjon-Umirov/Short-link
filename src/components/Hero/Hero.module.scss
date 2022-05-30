@@ -1,0 +1,20 @@
+.Hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: 1080px) {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+  
+    .content {
+        flex-basis: 40%;
+        .title {
+            font-weight: 700;
+            font-size: 2.8rem;
+            color: #34313c;
+        }
+        .text {
+        }
+    }
+}

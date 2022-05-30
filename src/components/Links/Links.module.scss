@@ -1,0 +1,15 @@
+.Links{
+   position: absolute;
+   width: 80%;
+   padding: 15px;
+   left: 8%;
+   top:120px;
+   @media(max-width: 767px) {
+      &{
+          width: 90%;
+          left: 0px;
+          padding: 10px;
+      }
+  }
+
+}
